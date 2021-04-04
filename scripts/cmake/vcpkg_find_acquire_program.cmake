@@ -422,7 +422,7 @@ function(vcpkg_find_acquire_program VAR)
       return()
     elseif(CMAKE_HOST_WIN32)
       if(NOT EXISTS "${PKGCONFIG}")
-        set(VERSION 0.29.2-1)
+        set(VERSION 0.29.2-2)
         set(LIBWINPTHREAD_VERSION git-8.0.0.5906.c9a21571-1)
         vcpkg_acquire_msys(
           PKGCONFIG_ROOT
